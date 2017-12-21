@@ -15,7 +15,7 @@ state = 'CA'
 city = 'hayward'
 
 # Edit the name of the user account CronTab to use
-username = 'bigger'
+username = 'EDIT_HERE'
 my_cron=CronTab(user=username)
 
 # X10 House number
