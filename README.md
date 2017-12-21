@@ -7,6 +7,6 @@ Weather info is provided by https://www.wunderground.com data using their API. A
 
 I'd like to add a sprinkler function to disable my sprinklers when there is rain.
 
-The lights are controlled by X10 modules and a bottlerocket controller. The bottle rocket is controlled by the bottlerock app found here: http://www.linuxha.com/bottlerocket/.
+The lights are controlled by X10 modules and a bottlerocket controller. The bottle rocket is controlled by the bottlerock app found here: http://www.linuxha.com/bottlerocket/. Cron handles the timing. Some lights work well with their own script, while others are flipped on/off from cron directly. 
 
 The update_times.py script checks the sunset times and updates the crontab entries to turn on lights 15 minutes before sunset. This script runs every few days.
